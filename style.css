@@ -63,3 +63,27 @@ footer {
   height: 50px;
   background-color: #aaaaaa;
 }
+
+@media screen and (max-width: 768px) {
+  main {
+    display: block;
+    margin: 50px 0;
+  }
+
+  section {
+    width: 90%;
+    margin: 20px 5% 20px 5%;
+  }
+
+  .step {
+    font-size: 90%;
+  }
+
+  .title {
+    font-size: 95%;
+  }
+
+  .text {
+    font-size: 75%;
+  }
+}
